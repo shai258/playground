@@ -1,0 +1,15 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "description": "Classes  \r 1. Board",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "eslint": "^5.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

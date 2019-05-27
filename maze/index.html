@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maze</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+    <section id="mainContainer">
+        <div id="controls">
+            <h3 id="mazeTitle">The-maze</h3>
+            <select id="mazeDropdown" class="pulse">
+            </select>
+            <a href="#mazeContainer"><button id="btnNewGame">Start new game</button></a>
+            <h3 id='guessesTitle'>Create new maze:</h3>
+            <input id="tbBoard" type="text" placeholder="board">
+            <input id="tbStartPoint" placeholder="start-point" type="text">
+            <input id="tbDirection" placeholder="direction" type="text">
+            <button id="btnLoadMaze">Save</button>
+        </div>
+        <div id="mazeContainer"></div>
+    </section>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

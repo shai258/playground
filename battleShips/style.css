@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://i0.wp.com/naswithnotepads.com/wp-content/uploads/2014/07/sailing_by_a_shipwreck_1920x1080_71173.jpg?fit=1920%2C1080&ssl=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Pirata One', cursive;
+}
+
+p{
+    display: inline-block;
+}
+
+h1{
+    font-size: 60px;
+    top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+#container {
+    margin: 80px 400px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: stretch;
+    /* border: 0.3px solid lightgoldenrodyellow; */
+}
+
+.sea, .ship, .fail {
+    height: 50px;
+    border: 0.2px solid lightgoldenrodyellow;
+}
+
+.sea {
+    background: transparent;
+}
+
+.fail {
+    background: lightgray;
+    opacity: 0.8;
+
+}
+
+.ship {
+    background: rgb(236, 158, 158);
+    opacity: 0.6;
+}
+
+#guessingsPara, #tbGuessings, #tbShipsStatus, #shipsStatusPara {
+    position: absolute;
+    color: black;
+    background: transparent;
+    font-family: 'Pirata One', cursive;
+    border: none;
+    font-size: 28px;
+
+} 
+
+#guessingsPara {
+    left: 56px;
+    top: 144px;
+}
+
+
+#tbGuessings {
+    left: 180px;
+    top: 172px;
+    width: 100px;
+}
+
+#shipsStatusPara {
+    left: 50px;
+    top: 200px;
+}
+
+#tbShipsStatus {
+    left: 180px;
+    top: 228px;
+    width: 100px;
+}
+
+#btnNewBattle {
+    background: transparent;
+    border: dotted 1px black;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Pirata One', cursive;
+
+}
+
+#btnNewBattle:hover {
+    background: tan;
+}

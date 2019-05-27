@@ -1,0 +1,67 @@
+body {
+  font-family: 'Bubbler One', sans-serif;
+  margin: 0;
+  color: #F26D68;
+  background: url('https://www.pixelstalk.net/wp-content/uploads/2016/11/fish-tank-backgrounds-hd-wallpaper-620x388.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;  
+  width: 100%;
+  height: 100vh;
+}
+
+i, select, input {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+i, select, input, p {
+  vertical-align: top;
+  margin-top: 25px;
+}
+
+select, input {
+  width: 80px;
+  outline: 0;
+  text-align: center;
+  border: none;
+  border-bottom: 2px #EA3D3D dotted ;
+  background: transparent;
+  color: #e2cdcd;
+  padding: 0px 5px;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+input {
+  margin-top: 27px;
+}
+
+p {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.fa-fish{
+  font-size: 35px;
+  padding: 0px 16px;
+  line-height: 0.65;
+}
+
+#fishContainer {
+  position: absolute;
+  right: 0;
+}
+
+select:active {
+  color: #8E6244;
+}

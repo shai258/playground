@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="dbzImg" src="./images/dbzHeader.png" alt="">
+    </header>
+    <section id="mainContainer">
+        <div id="topBar">
+            <select id="levelDropDown" class="pulse">
+                <option value="">Choose level:</option>
+                <option value="4">level 1</option>
+                <option value="8">level 2</option>
+                <option value="12">level 3</option>
+                <option value="16">level 4</option>
+                <option value="20">level 5</option>
+                <!-- <option value="24">6 rows</option>
+                <option value="28">7 rows</option>
+                <option value="32">8 rows</option> -->
+            </select>
+            <a href="#boardContainer"><button id="btnNewGame">Start new game</button></a>
+        </div>
+        <div id="controls">
+            <h3 id="timerTitle">Time:</h3>
+            <span id="timeWrapper">01m : 00s</span>
+            <h3 id='guessesTitle'>guesses:</h3>
+            <input id="tbGuesses" type="num" disabled value='0'>
+            <h3 id='scoreTitle'>score:</h3>
+            <input id="tbScore" type="num" disabled value='0'>
+        </div>
+        <div id="boardContainer"></div>
+        <div id="highScoreContainer">
+            <h1>High-Scores</h1>
+        </div>
+    </section>
+    <div id="gameOverModal">
+        <img src="./images/gameOver.png" alt="">
+    </div>
+    <div id="gameWinModal">
+        <img src="./images/gameWin.jpg" alt="">
+        <div>
+            <h1>You Win!!</h1>
+            <div id="winControls">
+                <p>Your score is: </p>
+                <input id="tbWinScore" type="num" disabled>
+                <p>Enter your name: </p>
+                <input id="tbName" type="text">
+            </div>
+            <button id="btnScore">ENTER</button>
+        </div>
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

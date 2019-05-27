@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Garden</title>
+  <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article id="rain"></article>
+  <article id="night"></article>
+  <article id="mainContainer">
+    <section id="header">
+      <select id="ddPlants">
+        <option value="">Select Plant</option>
+        <option value="Rose">Rose $200</option>
+        <option value="FruitTree">Fruit-Tree $300</option>
+      </select>
+      <button id="btnAddPlant">Add Plant</button>
+      <p id="agePara">Garden-Age :</p>
+      <input id="gardenAge" readonly type="number" value="0">
+      <p id="moneyPara">Garden-Money : &nbsp; $</p>
+      <input id="gardenMoney" readonly type="number" value="1200">
+      <img id="btnCollectMoney"  title="collect money" src="./images/coin.gif" alt=""> 
+      <img id="btnlawnMower" title="mower one weed &nbsp; -$50" src="./images/lawnMower.gif" alt="">
+      <img id="btnWater" title="watering  &nbsp; -$50" src="https://loading.io/spinners/rainy/lg.rainy-preloader.gif" alt="">
+      <img id="btnPassDay" title="pass-day &nbsp; +$100" src="https://df28ufcn2a3do.cloudfront.net/80384DCA-7E02-49AB-BB58-6E31D2A3B37D/unzipped/photo1/layers/2_anim.gif" alt="">
+    </section>
+    <section id="container"></section>
+    <script src="dist/bundle.js"></script>
+  </article>
+</body>
+</html>

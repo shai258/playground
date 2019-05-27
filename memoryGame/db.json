@@ -1,0 +1,64 @@
+{
+    "cards": [
+        {
+            "url": "./images/dbz1.png",
+            "id": 1
+        },
+        {
+            "url": "./images/dbz2.png",
+            "id": 2
+        },
+        {
+            "url": "./images/dbz3.png",
+            "id": 3
+        },
+        {
+            "url": "./images/dbz4.png",
+            "id": 4
+        },
+        {
+            "url": "./images/dbz5.png",
+            "id": 5
+        },
+        {
+            "url": "./images/dbz6.png",
+            "id": 6
+        },
+        {
+            "url": "./images/dbz7.png",
+            "id": 7
+        },
+        {
+            "url": "./images/dbz8.png",
+            "id": 8
+        },
+        {
+            "url": "./images/dbz9.png",
+            "id": 9
+        },
+        {
+            "url": "./images/dbz10.png",
+            "id": 10
+        },
+        {
+            "url": "./images/dbz11.png",
+            "id": 11
+        },
+        {
+            "url": "./images/dbz12.png",
+            "id": 12
+        },
+        {
+            "url": "./images/dbz13.png",
+            "id": 13
+        },
+        {
+            "url": "./images/dbz14.png",
+            "id": 14
+        },
+        {
+            "url": "./images/dbz15.png",
+            "id": 15
+        }
+    ]
+}
